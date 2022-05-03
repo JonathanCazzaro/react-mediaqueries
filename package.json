@@ -1,8 +1,17 @@
 {
-  "name": "react-mediaquery",
+  "name": "@jsee_dev/react-mediaqueries",
   "version": "1.0.0",
   "description": "Ultra light library for React to render components depending on media queries.",
+  "keywords": [
+    "react",
+    "media queries",
+    "responsive"
+  ],
   "main": "index.ts",
   "author": "Jonathan Cazzaro <jonathan.cazzaro@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanCazzaro/react-mediaqueries"
+  },
   "license": "MIT"
 }
