@@ -1,0 +1,8 @@
+{
+  "name": "react-mediaquery",
+  "version": "1.0.0",
+  "description": "Ultra light library for React to render components depending on media queries.",
+  "main": "index.ts",
+  "author": "Jonathan Cazzaro <jonathan.cazzaro@gmail.com>",
+  "license": "MIT"
+}
