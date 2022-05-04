@@ -11,13 +11,13 @@ You need to be using typescript for your project.
 1. Let's first install the library.
 
 ```
-yarn add react-mediaqueries
+yarn add @jsee_dev/react-mediaqueries
 ```
 
 or
 
 ```
-npm install react-mediaqueries
+npm install @jsee_dev/react-mediaqueries
 ```
 
 2. Then, I would recommend importing it in a dedicated file in your project. Once it is done, you will have to instanciate the ReactMediaQueries class that has been imported, and get the wrapper component named MediaContext. Export it eventually so that it can be used anywhere in your application.
