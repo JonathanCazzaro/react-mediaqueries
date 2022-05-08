@@ -26,7 +26,7 @@ export declare namespace ResponsiveTypes {
     /** Specify an orientation for the media query. */
     orientation?: 'landscape' | 'portrait';
     type?: DeviceType;
-    children: ReactElement<any, any>;
+    children: ReactElement<any, any>|ReactElement<any, any>[];
   }
 
   type DeviceQueriesConstructor = {
