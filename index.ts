@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsiveTypes } from './types';
+import { useMediaQuery } from './hooks/useMediaQuery';
+export { useMediaQuery };
 
 export default class ReactMediaQueries {
   #smartphone_small: ResponsiveTypes.DeviceQueries = {
