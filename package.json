@@ -1,6 +1,6 @@
 {
   "name": "@jsee_dev/react-mediaqueries",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Ultra light library for React to render components depending on media queries.",
   "keywords": [
     "react",
@@ -13,5 +13,7 @@
     "type": "git",
     "url": "https://github.com/JonathanCazzaro/react-mediaqueries"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
 }
