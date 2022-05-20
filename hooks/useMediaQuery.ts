@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
-export const useMediaQuery = () => {
-  const setQuery = (queryConfig: string) => {
+export const useMediaQuery = (customQuery?: string) => {
+  const setQuery = (queryConfig: string): boolean => {
     const [verified, setVerified] = useState(false);
-    const query = window.matchMedia(queryConfig);
+    const query = matchMedia(queryConfig);
     
     const handleChange = (event: MediaQueryListEvent) => {
       if (event.matches !== verified) setVerified(event.matches);
@@ -17,6 +17,7 @@ export const useMediaQuery = () => {
 
     return verified;
   };
+  if (customQuery) return setQuery(customQuery);
   const isWidthLarger = (value: number) => setQuery(`(min-width: ${value}px)`);
   const isWidthSmaller = (value: number) => setQuery(`(max-width: ${value}px)`);
   const isHeightLarger = (value: number) => setQuery(`(min-height: ${value}px)`);

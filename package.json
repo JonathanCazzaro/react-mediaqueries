@@ -1,6 +1,6 @@
 {
   "name": "@jsee_dev/react-mediaqueries",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Ultra light library for React to render components depending on media queries.",
   "keywords": [
     "react",
